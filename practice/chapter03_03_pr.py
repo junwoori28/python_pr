@@ -135,6 +135,17 @@ print(x1, x2, x3)
 print(x4, x5, x6)
 
 
+z = [5, 2, 3, 1, 4]
 
-
+z.append(6)
+print('z -', z)
+print('z -', z.index(6))
+z.insert(2,8)
+print('z -', z)
+print('z -', z.count(5))
+ex = [10,11]
+z.extend(ex)
+print('z -', z)
+z.sort()
+print('z -', z)
 
